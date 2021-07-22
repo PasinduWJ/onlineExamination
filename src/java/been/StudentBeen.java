@@ -10,18 +10,18 @@ public class StudentBeen implements Serializable{
     private String lastName;
     private String password;
     private String department;
-    private String level;
+    private int leval;
 
     public StudentBeen() {
     }
 
-    public StudentBeen(String regNo, String firstName, String lastName, String password, String department, String level) {
+    public StudentBeen(String regNo, String firstName, String lastName, String password, String department, int leval) {
         this.regNo = regNo;
         this.firstName = firstName;
         this.lastName = lastName;
         this.password = password;
         this.department = department;
-        this.level = level;
+        this.leval = leval;
     }
 
     public String getRegNo() {
@@ -64,12 +64,12 @@ public class StudentBeen implements Serializable{
         this.department = department;
     }
 
-    public String getLevel() {
-        return level;
+    public int getLeval() {
+        return leval;
     }
 
-    public void setLevel(String level) {
-        this.level = level;
+    public void setLeval(int leval) {
+        this.leval = leval;
     }
     
     

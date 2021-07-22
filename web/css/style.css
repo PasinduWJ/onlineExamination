@@ -185,6 +185,13 @@ nav{
     color: #F2AC32;
     font-family: 'Oswald', sans-serif;
 }
+.box-btn button{
+    font-size: 16px;
+    color: #F2AC32;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    background: none;
+}
 .box p{
     color: rgb(158, 158, 158);
     font-size: 16px;
@@ -243,6 +250,7 @@ nav{
     url("../images/test-header.jpg");
     background-size: cover;
 }
+
 .test-header-h1{
     font-family: 'Oswald', sans-serif;
     color: #e6d2b8;
@@ -707,8 +715,69 @@ input{
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    padding: 15px
+    padding: 15px;
+}
+.box-quiz-a{
+    height: 200px;
+    width: 270px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    box-shadow: -3px -3px 14px 8px rgba(0,0,0,0.54);
+    -webkit-box-shadow: -3px -3px 14px 8px rgba(0,0,0,0.54);
+    -moz-box-shadow: -3px -3px 14px 8px rgba(0,0,0,0.54);
 }
 
-
 /*********************** End View result Section **************************/
+
+/*********************** Start answer paper Section **************************/
+
+.bg-create-startTest{
+    width: 100%;
+    height: 100%;
+    background-color: #bdb7b7;
+    position: relative;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.student-q{
+    width: 550px;
+    display: flex;
+    padding: 3px;
+    margin-left: 30px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.stu-ans{
+    display: flex;
+    width: 550px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.stu-answer-label-no{
+    padding: 5px;
+    display: flex;
+}
+.stu-answer-label-c{
+    width: 100px;
+    padding: 7px;
+    display: flex;
+}
+.stu-answer-label-q{
+    display: flex;
+    text-align: left;
+    padding: 5px 10px;
+}
+.stu-answer-input{
+    display: flex;
+    margin: initial;
+}
+.stu-ans-currect{
+    border-bottom: 5px solid #72b972;
+}
+.stu-ans-wrong{
+    border-bottom: 5px solid #fd4801;
+}
+/*********************** End answer paper Section **************************/

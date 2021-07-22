@@ -27,7 +27,7 @@ public class SignUp {
                 stmt.setString(3, stu.getLastName());
                 stmt.setString(4, stu.getPassword());
                 stmt.setString(5, stu.getDepartment());
-                stmt.setString(6, stu.getLevel());
+                stmt.setInt(6, stu.getLeval());
 System.out.println("in........................");
                 int result = stmt.executeUpdate();
                 

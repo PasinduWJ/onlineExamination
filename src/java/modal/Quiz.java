@@ -65,7 +65,7 @@ public class Quiz {
             try (Statement stmt3 = conn.createStatement()) {
                 stmt3.execute("CREATE TABLE " + qTable + "(question varchar(255),"
                         + " answer1 varchar(255),answer2 varchar(255),answer3 varchar(255),answer4 varchar(255),"
-                        + "check1 boolean,check2 boolean,check3 boolean,check4 boolean)");
+                        + "check1 varchar(5),check2 varchar(5),check3 varchar(5),check4 varchar(5))");
             }
             
 //create Answer table

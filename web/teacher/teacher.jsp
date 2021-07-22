@@ -94,8 +94,8 @@
                         </div>
                         <form action="../teacher/changes.jsp">
                         <div class="box-body">
-                            <button >Ragister for a class</button>
-                            <button >Create a test</button>
+                            <button type="button">Ragister for a class</button>
+                            <button type="button">Create a test</button>
                             <input type="hidden" name="quizNo" value="<%= qmb.getQuizNo()%>">
                             <button type="submit" name="clickBtn" value="results">View Student Proformence</button>
                             <button type="submit" name="clickBtn" value="remove">Remove This Quiz</button>
@@ -103,7 +103,7 @@
                         </form>
                         <div class="box-footer">
                             <div class="box-btn">
-                                <a href="../teacher/teacher.jsp">View Results</a>
+                                <a href="#">View Results</a>
                             </div>
                         </div>
                     </div>

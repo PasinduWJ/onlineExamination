@@ -22,7 +22,7 @@
                 String fname = request.getParameter("firstname");
                 String lname = request.getParameter("lastname");
                 String dpt = request.getParameter("department");
-                String level = request.getParameter("level");
+                String leval = request.getParameter("level");
                 String password = request.getParameter("password");
                 String con_password = request.getParameter("confirm_password");
 
@@ -33,7 +33,7 @@
                     stu.setFirstName(fname);
                     stu.setLastName(lname);
                     stu.setDepartment(dpt);
-                    stu.setLevel(level);
+                    stu.setLeval(Integer.parseInt(leval));
                     stu.setPassword(password);
 
                     regVal = SignUp.signUpValidateStudent(stu);
